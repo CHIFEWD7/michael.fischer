@@ -1,0 +1,376 @@
+html {
+	box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+.clearfix:after {
+	display: block;
+	height: 0;
+	clear: both;
+	line-height: 0;
+	content: ".";
+
+	visibility: hidden;
+}
+
+body{
+	font-size: 16px;
+	font-family: 'Droid Sans', sans-serif;
+	color: #666;
+}
+
+h1{
+	font-family: 'Droid Sans', sans-serif;
+	letter-spacing: 2px;
+}
+
+h2{
+	font-family: 'Droid Sans', sans-serif;
+	letter-spacing: 2px;
+	font-size: 30px;
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 20px;
+}
+h4,
+h5,
+h6{
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	margin: 0 0 10px 0;
+}
+p{
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 22px;
+	margin: 0 0 10px 0;
+	text-align: center;
+}
+p:last-child{
+	margin-bottom: 0;
+}
+
+.site{
+	margin: 0 auto;
+}
+
+
+.north,
+.hero,
+.about,
+.features,
+.work,
+.contact,
+.south{
+	border: 1px solid #ccc;
+	margin: 0 0 10px 0;
+	padding: 10px;
+}
+
+.north{
+	background: #b5d6cb;
+	margin: 0px;
+	position: fixed;
+	width: 100%;
+}
+
+.logo{
+	float: left;
+	width: 20%;
+	padding: 10px;
+	margin: 0;
+}
+
+.logo img{
+	height: 26px;
+}
+
+.main-navigation{
+	float: right;
+	width: 40%;
+}
+.main-navigation ul{
+	list-style: none;
+	width: 100%;
+}
+.main-navigation ul li{
+	float: left;
+	display: inline;
+	width: 25%;
+	padding: 0 10px;
+}
+.main-navigation ul li a{
+	display: block;
+	font-size: 14px;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 16px 0;
+}
+.main-navigation ul li a:hover{
+	background: white;
+	color: #b5d6cb;
+}
+
+.hero{
+	text-align: center;
+	height: 600px;
+	background: grey;
+	border: none;
+	font-size: 45px;
+	background-image: url(../images/pusher_project.jpg);
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero h1{
+	color: white;
+	font-family: serif;
+	text-align: center;
+	padding: 250px;
+}
+
+.button, 
+.button:visited{
+  font-family: 'Libre Baskerville', serif;
+  margin: 245px 485px;
+  display: block;
+  padding: 15px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 2px;
+  text-decoration: none;
+  border: 1px solid;
+  border-color: #b5d6cb;
+  font-size: 18px;
+}
+
+.button:hover {
+  color: white;
+  background: #b5d6cb;
+}
+
+.one:hover, .two:hover,
+.three:hover, .four:hover,
+.five:hover, .six:hover,
+.seven:hover, .eight:hover
+{
+  color: white;
+  background: rgba(181, 214, 203, 0.5);
+
+}
+
+.one .button, .two .button, 
+.three .button, .four .button, 
+.five .button, .six .button, 
+.seven .button, .eight .button
+{
+	margin: 120px 200px 0px 200px;
+	font-size: 14px;
+}
+
+
+.about, .work{
+	padding: 60px 420px 50px 420px;
+	text-align: center;
+	border: none;
+}
+
+.features{
+	padding: 0px;
+	border: none;
+	margin: 0px;
+}
+
+.features 
+.one, .two, 
+.three, .four, 
+.five, .six, 
+.seven, .eight
+{
+	width: 50%;
+	height: 380px;
+	float: left;
+	padding: 5px;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.features .one .feature-inner h3, .features .two .feature-inner h3,
+.features .three .feature-inner h3, .features .four .feature-inner h3,
+.features .five .feature-inner h3, .features .six .feature-inner h3,
+.features .seven .feature-inner h3,.features .eight .feature-inner h3
+{
+	color: white;
+	text-align: center;
+	padding: 315px 0 0 0;
+	font-size: 14px;
+}
+
+.one{
+	background-image: url(../images/blog.png);
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.two{
+	background-image: url(../images/email.jpg);
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.three{
+	background-image: url(../images/ss16.png);
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.four{
+	background-image: url(../images/bucketfeet.jpg);
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.five{
+	background-image: url(../images/strictly.jpg);
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.six{
+	background-image: url(../images/infinity.jpg);
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.seven{
+	background-image: url(../images/native.jpg);
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.eight{
+	background-image: url(../images/pic.jpg);
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact{
+	height: 400px;
+	color: white;
+	background: grey;
+	padding: 125px 615px 0px 115px;
+	text-align: center;
+	border: none;
+	margin: 0px;
+	background-image: url(../images/contact.jpg);
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact h3{
+	letter-spacing: 1px;
+}
+
+.contact .button{
+	margin: 35px 200px 0px 200px;
+	font-size: 14px;
+}
+
+.south{
+	color: white;
+	text-align: left;
+	background: #b5d6cb;
+	margin: 0px;
+	height: 100px;
+	padding: 30px;
+}
+
+.south p{
+	float: left;
+	text-align: left;
+	letter-spacing: 1px;
+}
+
+.south img{
+	float: right;
+	height: 42px;
+}
+
+/* Tablet */
+@media screen and (max-width: 780px){
+	.north{
+		padding-bottom: 0;
+		}
+
+	.logo {
+		float: none;
+		width:100%;
+		margin: 0 0 10px 0;
+		}
+
+	.main-navigation{
+		float: none;
+		width: 100%;
+		}
+
+	.main-navigation ul{
+		overflow: hidden;
+		}
+
+	.main-navigation ul li{
+		display: block;
+		width: 100%;
+		float: none;
+		padding: 0px;
+		margin: 0 0 10px 0;
+		}
+
+	.features .feature{
+		width: 50%;
+		float: left;
+		text-align: center;
+		}
+
+}
+
+
+/* Mobile */
+@media screen and (max-width: 450px){
+	.features .feature{
+		width: 100%;
+		float: left;
+	}
+
+	h3{
+		font-size: 14px;
+	}
+
+	p{
+		font-size: 12px;
+	}
+}
+
+
+
